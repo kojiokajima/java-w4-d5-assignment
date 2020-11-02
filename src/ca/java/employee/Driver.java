@@ -21,10 +21,10 @@ public class Driver {
 		ArrayList<Employee> employeeList = new ArrayList<Employee>();
 		
 		
-		HourlyEmployee he1 = new HourlyEmployee("Martin", "Garrix", "martin@gmail.com", "021-321-4424", LocalDate.of(2016, 8, 20), 15.5, 35);
-		HourlyEmployee he2 = new HourlyEmployee("Clacin", "Harris", "calvin@gmail.com", "619-915-0199", LocalDate.of(2019, 7, 10), 25.8, 31);
-		SalesEmployee se1 = new SalesEmployee("Adam", "Young", "adam@gmail.com", "144-153-7154", LocalDate.of(2017, 10, 10), 8.5, 583.5);
-		SalesEmployee se2 = new SalesEmployee("Alan", "Walker", "alan@gmail.com", "815-231-9766", LocalDate.of(2020, 8, 31), 9.8, 825.4);
+		HourlyEmployee he1 = new HourlyEmployee("Martin", "Garrix", "martin@gmail.com", "021-321-4424", LocalDate.of(2016, 8, 20), 15.4, 40);
+		HourlyEmployee he2 = new HourlyEmployee("Clavin", "Harris", "calvin@gmail.com", "619-915-0199", LocalDate.of(2019, 7, 10), 25.8, 30);
+		SalesEmployee se1 = new SalesEmployee("Adam", "Young", "adam@gmail.com", "144-153-7154", LocalDate.of(2017, 10, 10), 12.5, 1583.5);
+		SalesEmployee se2 = new SalesEmployee("Alan", "Walker", "alan@gmail.com", "815-231-9766", LocalDate.of(2020, 8, 31), 10.0, 1825.5);
 		
 		employeeList.add(he1);
 		employeeList.add(he2);
