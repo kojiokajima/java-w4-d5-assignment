@@ -1,5 +1,4 @@
 package ca.java.employee;
-
 import java.time.LocalDate;
 
 public abstract class Employee {
@@ -76,15 +75,4 @@ public abstract class Employee {
 	public void setStartDate(LocalDate startDate) {
 		this.startDate = startDate;
 	}
-	
-	
-
 }
-
-
-
-
-
-
-
-

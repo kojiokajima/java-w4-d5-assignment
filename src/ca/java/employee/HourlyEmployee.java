@@ -1,5 +1,4 @@
 package ca.java.employee;
-
 import java.time.LocalDate;
 
 
@@ -14,6 +13,7 @@ public class HourlyEmployee extends Employee{
 		setPayRate(oayRate);
 		setHoursWorking(hoursWorking);
 	}
+	
 	
 	//getters
 	public double getPayRate() {
@@ -39,12 +39,6 @@ public class HourlyEmployee extends Employee{
 			this.hoursWorking = 0;
 		}
 	}
-	
-	
-//	//calculate total income
-//	public double totalIncome() {
-//		return payRate * hoursWorking;
-//	}
 	
 	
 	@Override

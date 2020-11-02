@@ -32,9 +32,6 @@ public class Driver {
 		employeeList.add(se2);
 		
 		printInformation(employeeList);
-		
-		
-		
 	}
 
 }

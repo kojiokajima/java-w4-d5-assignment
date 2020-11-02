@@ -1,5 +1,4 @@
 package ca.java.employee;
-
 import java.time.LocalDate;
 
 public class SalesEmployee extends Employee{
@@ -47,12 +46,9 @@ public class SalesEmployee extends Employee{
 		return "The total income is $" + calculateIncome();
 	}
 
-
 	@Override
 	public double calculateIncome() {
 		return (commissionRate * totalSales) / 100;
 		
-	}
-	
-	
+	}	
 }
