@@ -1,5 +1,7 @@
 package ca.java.employee;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.ArrayList;
 
 public class Driver {
@@ -8,8 +10,9 @@ public class Driver {
 		final String DIVIDER = "----------------------------";
 		
 		for (Employee e : emp) {
-			System.out.println(DIVIDER + "\nName:\t\t" + e.getFirstName() + " " + e.getLastName() + "\nEmail:\t\t" + e.getEmail() + "\nPhone#:\t\t" +
-								e.getPhoneNumber() + "\nStart Date:\t" + e.getStartDate() + "\n-->" + e.toString());
+			System.out.println(DIVIDER + "\nName:\t\t" + e.getFirstName() + " " + e.getLastName() + "\nEmail:\t\t" +
+								e.getEmail() + "\nPhone#:\t\t" + e.getPhoneNumber() +
+								"\nStart Date:\t" + e.getStartDate().format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)) + "\n-->" + e.toString());
 		}
 		System.out.println(DIVIDER);
 	}
